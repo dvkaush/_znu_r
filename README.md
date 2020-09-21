@@ -8,11 +8,13 @@ $ python v2/model.py
 #### 2 api
 
 ```shell
+$ cd v2
 $ set FLASK_APP=api.py
 $ python -m flask run
 ```
 
-sample json
+##### localhost:5000/predict
+##### sample json
 
 ```json
 [
