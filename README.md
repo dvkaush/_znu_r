@@ -11,3 +11,20 @@ $ python v2/model.py
 $ set FLASK_APP=api.py
 $ python -m flask run
 ```
+
+sample json
+
+```json
+[
+    {
+        "age": 25,
+        "gender": "Male",
+        "emotion": "Happy",
+        "color": "Blue",
+        "animal": "Horse",
+        "q3": "N1",
+        "q4": "M1"
+    }
+]
+
+```
