@@ -1,6 +1,6 @@
 import json
 import numpy as np
-# import pandas as pd
+import pandas as pd
 # import tensorflow as tf
 from flask import Flask
 # from flask import request
@@ -19,7 +19,8 @@ def test_get():
 def test_post():
     if request.method == 'POST':
         pred_dicts = request.get_json()
-        # df = dict(pd.DataFrame(pred_dicts))
+        df = dict(pd.DataFrame(pred_dicts))
+        print(df)
 
         # pred_ds1 = tf.data.Dataset.from_tensor_slices(df)
         # pred_ds1 = pred_ds1.batch(32)
